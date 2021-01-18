@@ -53,6 +53,15 @@ week = soup.find(id="seven-day-forecast-body")
 ```
 
 
+### The Forecast
+
 <p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/Forecast.PNG" width="100%" height="100%"></p>
+
+### The Data
+
+This is the image of the data after it was parsed from the website. 
+
+With the use of the **Panadas** library I was able to organize the data into a table.
+
 
 <p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/Terminal.PNG"></p>
