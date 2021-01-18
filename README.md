@@ -1,5 +1,6 @@
 # Web-Scraping-Projects-with-Python
-<p align="center"> A repository full of web scraping projects to get hands on practice with Python's utilization of webscraping </p>
+
+A repository full of web scraping projects to get hands on practice with Python's utilization of webscraping
 
 ## Weather Forecast Webscrapper
 
