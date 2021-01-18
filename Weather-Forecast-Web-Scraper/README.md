@@ -40,3 +40,5 @@ To select the website that you want to web scrape you utilize Requests Library f
 page = requests.get("https://forecast.weather.gov/MapClick.php?lat=42.35866000000004&lon=-71.05673999999993#.YAXqz-hKjb0")
 ```
 
+<p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/Forecast.PNG" width="100%" height="100%"></p>
+
