@@ -1,4 +1,4 @@
-# Weather Forecast Web Scrapper
+# Weather Forecast Web Scraper
 <p align = "center"> A simple example of web scrapping in Python by utilizing Beautiful Soup </p>
 <p align = "center"> All the data that was web scrapped came from Boston's 7 day weather forcast from weather.gov </p>
 
