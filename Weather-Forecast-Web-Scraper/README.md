@@ -41,14 +41,18 @@ page = requests.get("https://forecast.weather.gov/MapClick.php?lat=42.3586600000
 ```
 
 
+Utilizing Beautiful Soup to parse the contents of the website's HTML code
+```python
+soup = BeautifulSoup(page.content, 'html.parser')
+```
 
-### The Forecast
+Within the HTML code the contents of 7 day forcast is within the *seven-day-forecast-body*, so we then utilized Beautiful Soup to only show us the content within the *seven-day-forecast-body*
+
+```python
+week = soup.find(id="seven-day-forecast-body")
+```
+
 
 <p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/Forecast.PNG" width="100%" height="100%"></p>
-
-### The Data
-
-This is the image of the data after it was parsed from the website. With the use of the Panadas library I was able to organize the data into a table.
-
 
 <p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/Terminal.PNG"></p>
