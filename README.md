@@ -7,6 +7,8 @@ A repository full of web scraping projects to get hands on practice with Python'
 
 * Weather Forecast Webscraper
 
+## Projects
+
 #### Weather Forecast Webscraper
 
 A simple web scraping project that parses HTML from Boston's 7 day forecast on weather.gov.
