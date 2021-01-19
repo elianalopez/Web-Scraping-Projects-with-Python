@@ -46,12 +46,40 @@ Utilizing Beautiful Soup to parse the contents of the website's HTML code
 soup = BeautifulSoup(page.content, 'html.parser')
 ```
 
-Within the HTML code the contents of 7 day forcast is within the *seven-day-forecast-body*, so we then utilized Beautiful Soup to only show us the content within the *seven-day-forecast-body*
+Within the HTML code the contents of 7 day forcast is within the *seven-day-forecast-body*, so we then utilized Beautiful Soup to only show us the content within the *seven-day-forecast-body*.
 
 ```python
 week = soup.find(id="seven-day-forecast-body")
 ```
 
+Within the body, important information regarding the weather forecast such as the weather condition, day of week, and temperature, has been listed and contained in the *tombstone-container*.
+
+```python
+items = (week.find_all(class_ = "tombstone-container"))
+```
+
+From then we can parse out certain information, down below we parse out the time of day, weather description, and temperature:
+
+```python
+period_names = [item.find(class_ = "period-name").get_text() for item in items]
+short_descs = [item.find(class_ = "short-desc").get_text() for item in items]
+temps = [item.find(class_ = "temp").get_text() for item in items]
+```
+
+Utilizing the Pandas Library we can organize the information above into a table utilizing the code below as well as convert the following table into a CSV file.
+
+```python
+weather = pd.DataFrame(
+    {'period': period_names,
+    'short descriptions': short_descs,
+    'temperature': temps,
+    })
+    
+print(weather)
+
+weather.to_csv('weather.csv')
+
+```
 
 ### The Forecast
 
