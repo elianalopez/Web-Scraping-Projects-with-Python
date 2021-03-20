@@ -2,6 +2,8 @@
 
 This code is a porition of a pervious project I did known as <a href="https://github.com/elianalopez/Instapup">Instapup</a>, the Instagram puppy generator!
 
+## About
+
 Utilized the Beautiful Soup library to randomly webscrap images from Google Images.
 
 Search terms are defined in a dictionary and then one is randomly chosen by key term value. 
