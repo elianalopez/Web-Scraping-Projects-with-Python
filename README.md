@@ -2,14 +2,11 @@
 
 A repository full of web scraping projects to get hands on practice with Python's utilization of webscraping
 
-
 ### Web Scraping Projects Contents
 
 * **Weather Forecast Webscraper** | <a href="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/tree/main/Weather-Forecast-Web-Scraper">GitHub</a>.
 
-* **Google Image Puppy Scapper** | <a href="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/tree/main/Google%20Images%20Puppy%20Scapper">GitHub</a>.
-
-
+* **Google Image Puppy Scapper** | <a href="https://github.com/elianalopez/Instapup">Instapup</a>, the Instagram puppy generator!
 
 ## Projects
 
