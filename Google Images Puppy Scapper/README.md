@@ -18,3 +18,5 @@ SEARCH= {"dog": 1, "dogs":2, "pupper":3, "puppers":4, "puppy":5,"doggo":6, "dogg
 After that the number of images for that search term is then chosen out of a maximum of 80 files. 
 
 ## Images
+
+<p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/dogfolder.PNG"></p>
