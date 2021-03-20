@@ -19,4 +19,4 @@ After that the number of images for that search term is then chosen out of a max
 
 ## Images
 
-<p align="center"><img src="https://github.com/elianalopez/Web-Scraping-Projects-with-Python/blob/main/Weather-Forecast-Web-Scraper/Images/dogfolder.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/elianalopez/Web-Scraping-Projects-with-Python/main/Google%20Images%20Puppy%20Scapper/Images/dogfolder.png"></p>
